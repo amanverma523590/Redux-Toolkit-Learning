@@ -1,9 +1,12 @@
+import { Header } from "./Header"
+import { Product } from "./Product"
 
 function App() {
 
   return (
     <div>
-      <h1>hiii</h1>
+      <Header/>
+      <Product/>
     </div>
   )
 }
